@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+@font-face {
+    font-family: 'Paladise';
+    src: url(Fonte/Paladise.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(66, 62, 82);
+    background-image: url(Imagens/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    border: 2px solid black;
+    cursor: pointer;
+    height: 50px; 
+    width: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 5px;    
+}
+
+
+header{
+    display: flex;
+    justify-content:  space-around;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+    font-size: 23px;
+    cursor: pointer;
+    
+    
+}
+
+nav > li > a{
+    color: white;
+    padding: 3px;
+    border-radius: 5%;
+
+}
+
+nav > li > a:hover{
+    background-color: #5841FF;
+    color: white;
+    border: 1px solid;
+    transition: 1.0s;
+}
+
+
+main{
+    padding: 140px 0 0 260px;
+    text-align: justify;
+
+}
+
+aside{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+
+h3{
+    color: white;
+    font-size: 25px;
+
+}
+
+h1{
+
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+span{
+    color: #7462fd;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.753);
+    font-family: 'Paladise';
+    font-size: 55px;
+    
+}
+
+p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+button{
+    color: white;
+    background-color: #5841FF;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+  
+
+}
+
+button:hover{
+    transition: 1.0s;
+    cursor: pointer;
+    
+}
