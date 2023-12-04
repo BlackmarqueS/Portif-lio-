@@ -5,6 +5,11 @@
     src: url(Fonte/Paladise.ttf);
 }
 
+@font-face {
+    font-family: 'LEMONMILK-Medium';
+    src: url(Fonte/LEMONMILK-Medium.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,13 +17,13 @@
     text-decoration: none;
     font-family: 'Lora', serif;
     box-sizing: border-box;
+    
 }
 
 body{
-    background-color: rgb(66, 62, 82);
-    background-image: url(Imagens/fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(Imagens/fundo1.jpg);
     
 }
 
@@ -99,8 +104,8 @@ h1{
 span{
     color: #7462fd;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.753);
-    font-family: 'Paladise';
-    font-size: 55px;
+    font-family: 'LEMONMILK-Medium';
+    font-size: 40px;
     
 }
 
