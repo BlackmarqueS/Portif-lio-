@@ -24,6 +24,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(Imagens/fundo2.jpg);
+    height: 100vh;
     
 }
 
@@ -77,6 +78,10 @@ main{
     padding: 140px 0 0 260px;
     text-align: justify;
 
+}
+
+article{
+    background-position: center right;
 }
 
 aside{
