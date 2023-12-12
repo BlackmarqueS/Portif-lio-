@@ -94,7 +94,7 @@ aside{
 
 h3{
     color: white;
-    font-size: 25px;
+    font-size: 40px;
 
 }
 
@@ -102,20 +102,20 @@ h1{
 
     color: white;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 span{
     color: #7462fd;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.753);
     font-family: 'LEMONMILK-Medium';
-    font-size: 40px;
+    font-size: 55px;
     
 }
 
 p{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
 }
