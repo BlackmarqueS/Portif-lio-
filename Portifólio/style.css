@@ -54,7 +54,7 @@ header{
 nav{
     display: flex;
     gap: 40px;
-    font-size: 23px;
+    font-size: 27px;
     cursor: pointer;
 }
 
